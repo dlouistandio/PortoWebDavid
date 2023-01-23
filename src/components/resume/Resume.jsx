@@ -13,7 +13,8 @@ const Resume = () => {
         {Data.map((val, id) => {
           if (val.category === "education") {
             return (
-              <Card key={id} 
+              <Card 
+              key={id} 
               icon={val.icon} 
               title={val.title} 
               year={val.year} 
@@ -27,7 +28,8 @@ const Resume = () => {
             {Data.map((val, index) => {
               if (val.category === "experience") {
                 return (
-                  <Card key={index} 
+                  <Card 
+                  key={index} 
                   icon={val.icon} 
                   title={val.title} 
                   year={val.year} 
